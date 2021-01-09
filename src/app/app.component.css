@@ -1,0 +1,49 @@
+#upper_left {
+	position: absolute;
+	top: 0;
+    left: 0;
+    background-color: black;
+    color:white;
+    width:400px;
+    height:100px;
+    font-size: large;
+}
+#upper_right {
+	position: absolute;
+	top: 0;
+    right: 0%;
+    background-color: black;
+    color:white;
+    width:400px;
+    height:100px;
+    font-size: large;
+}
+#lower_left {
+	position: absolute;
+	bottom: 0%;
+    left: 0;
+    background-color: black;
+    color:white;
+    width:400px;
+    height:100px;
+    font-size: large;
+}
+#lower_right {
+	bottom: 0%;
+	right: 0%;
+    position: absolute;
+    background-color: black;
+    color:white;
+    width:400px;
+    height:100px;
+    font-size: large;
+}
+#center
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
